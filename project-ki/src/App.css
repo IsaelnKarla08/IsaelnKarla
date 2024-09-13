@@ -1,0 +1,220 @@
+
+.postcard-container {
+  text-align: center;
+}
+
+.time {
+  font-size: 48px;
+}
+
+
+.cherubim {
+  position: absolute;
+  width: 144px;
+}
+
+
+.marriage-desktop {
+  padding: 64px;
+  font-size: 32px;
+}
+
+
+body {
+  font-family: 'Lovers Quarrel', cursive;
+  background-color: #9A82E4;
+  text-align: center;
+  color: #ffffff;
+ 
+}
+
+.timer-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 33px;
+  font-size: 48px;
+  padding: 33px 64px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+
+.main-container {
+  display: block;
+}
+
+.timer-inner-container {
+  display: inline-block;
+  max-height: max-content;
+}
+
+.timer-inner-container p{
+  margin: 0px;
+}
+
+.proximity {
+  margin-top: -72px;
+  font-size: 32px;
+}
+
+.postcard {
+  width: 400px;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 64px;
+}
+
+
+
+@media (max-width: 600px) {
+
+
+  .main-container {
+    display: none;
+  }
+
+  .date {
+    display: none;
+  }
+
+  .postcard {
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 64px;
+    margin-bottom: 104px;
+
+  }
+
+  .marriage {
+    padding: 32px;
+    font-size: 24px;
+  }
+
+
+  .timer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 12px;
+    font-size: 32px;
+    padding: 0px;
+    border-radius: 15px;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+
+  .cherubim {
+    position: absolute;
+    width: 100px;
+    margin-top: -32px;
+  }
+  
+  #cherubim1 {
+    top: 816px;
+    left: 32px;
+  }
+  
+  #cherubim2 {
+    top: 1425px;
+    right: 32px;
+  }
+  
+  #cherubim3 {
+    top: 525px !important;
+    margin-left: -50px !important;
+  }
+  
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .App-logo {
+      width: 20%;
+      margin-top: 0%;
+      
+  }  
+
+  .main-container {
+    display: block;
+  }
+
+  .postcard {
+    width: 400px;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 84px;
+  }
+
+  .timer-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 33px;
+    font-size: 32px;
+    margin-top: 100px;
+    padding: 14px 32px;
+    border-radius: 15px;
+    align-items: center;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+
+
+  .cherubim {
+    position: absolute;
+    width: 144px;
+  }
+  
+  #cherubim1 {
+    top: 16px;
+    right: 32px;
+  }
+  
+  #cherubim2 {
+    top: 900px;
+    right: 32px;
+  }
+  
+  #cherubim3 {
+    top: 675px;
+    margin-left: -70px;
+  }
+
+  .marriage-desktop {
+    padding: 64px;
+    font-size: 32px;
+  }
+  
+
+}
+
+@media (min-width: 1025px) {
+  .App-logo {
+      width: 14%;
+      margin-top: 0%;
+  }  
+
+  .mobile-container {
+    display: none;
+  }
+
+
+  #cherubim1 {
+    top: 16px;
+    right: 64px;
+  }
+
+  #cherubim2 {
+    top: 860px;
+    right: 64px;
+  }
+
+  #cherubim3 {
+    top: 575px;
+    left: 64px;
+  }
+
+  
+
+}
